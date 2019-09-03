@@ -1,0 +1,426 @@
+textarea{
+    text-decoration: none;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    border:0;
+    resize: none;
+    font-size:22px;
+    line-height: 26px;
+    font-family: 'Avenir LT book';
+}
+textarea::placeholder{
+    color: black;
+}
+textarea:focus{
+    outline:none !important;
+}
+body{
+    overflow-x: hidden;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.align-center{
+    align-items: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background-color: #3C415E;
+    padding: 60px  5%;
+    align-items: center;
+    text-align: center;
+}
+header .logo {
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Avenir LT BO';
+    font-size: 50px;
+    line-height: 50px;
+}
+.burger-icon{
+    width: 40px;
+    height: 28px;
+}
+.lang-switcher{
+    align-items: center;
+}
+.lang-switcher p{
+    font-family: 'Avenir LT book';
+    size:20px;
+    color: white;
+}
+.arrowdown{
+    width:12px;
+    height: 6px;
+    margin: 0 20px 0 5px;
+}
+.absolute.p{
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.p a{
+    color:white;
+    size: 20px;
+
+}
+/* header-end */
+
+
+/* main -start */
+.banner{
+    width: 100%;
+}
+.banner-img{
+    width: 100%;
+}
+.sig{
+    left: 50%;
+    top: 15%;
+    width: 100%;
+    transform: translateX(-50%);
+    text-align:center;
+    font-family: 'Avenir LT Stdb';
+    font-size: 64px;
+    color: white;
+    text-shadow: 2px 2px rgb(2, 3, 0,0.7 );
+}
+.Q_A{
+    left: 50%;
+    bottom: 25%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.variant1 p {
+    font-size: 35px;
+    font-family: 'Avenir LT book';
+    color: white;
+    padding: 30px;
+    transition: 0.3s;
+    opacity: 0.7;
+}
+.white-space{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    width: 0;
+    margin:0 50%;
+    height: 3px;
+    bottom: 0;
+    transition: 0.3s;
+
+}
+.black-space{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    width: 0;
+    margin:0 50%;
+    height: 3px;
+    bottom: 0;
+    transition: 0.3s;
+
+}
+
+.variant1 p:hover{
+    opacity: 1;
+    font-size: 45px;
+}
+.variant1 p:hover ~ .white-space{
+    width: 80%;
+    margin: 0;
+}
+.about{
+    margin-top:-3px;
+    background-color:#DFE2E2;
+}
+.about .text{
+
+    padding: 130px;
+}
+.about .text h2{
+    color: black;
+    font-family: 'Avenir LTlight';
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.about .text p{
+    color: Black;
+    font-family: 'Avenir LT BO';
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.portal .header {
+    font-family: 'Avenir LT Stdb';
+    font-size: 46px;
+    text-align: center;
+    padding: 60px 0;
+}
+.portal .in-portal{
+    background-color: #738598;
+    padding: 80px;
+    color: white;
+}
+.content{
+    align-items: center;
+    margin: 50px;
+}
+.in-portal .content img{
+    width: 15%;
+    margin-right: 10%;
+}
+.portal-text{
+    width: 80%;
+    color: black;
+    font-family: 'Avenir LT BO';
+}
+.in-portal .content .portal-text h2{
+    font-family: 'Avenir LT BO';
+    font-size: 36px;
+    margin: 20px 0;
+}
+.in-portal .content .portal-text h3{
+    font-family: 'Avenir LT book';
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.lm{
+    bottom: 10%;
+    right: 7%;
+}
+.lm a{
+    font-size:20px;
+    margin: 20px;
+    background-color: transparent; 
+    font-family: 'Avenir LTlight';
+    color: black;
+    padding: 10px;
+    transition:0.3s;
+    border-radius: 15px;
+}
+.lm a:hover{
+    background-color:#3C415E;
+    color:white;
+}
+.photo{
+    width: 50%;
+    background-color: white;
+
+}
+.photo img{
+    padding: 40px 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+/* section == WYN */
+.WYN{
+    height: 800px;
+    padding-top: 150px
+}
+.padding{
+    padding: 40px 0;
+}
+.WYN .what-you-need{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size:24px;
+    color: black;
+    font-family: 'Avenir LT Stdb';
+    opacity: 0.7;
+}
+.types{
+    position: absolute;
+    left: 25%;
+    top: 0;
+    color: black;
+    font-family: 'Avenir LT Stdb';
+    font-size: 24px;
+    opacity: 0.7;
+}
+.events{
+    position: absolute;
+    right: 25%;
+    top: 0;
+    color: black;
+    font-family: 'Avenir LT Stdb';
+    font-size: 24px;
+    opacity: 0.7;
+}
+.WYN .bigger{
+    font-size: 45px;
+    text-decoration: underline;
+    opacity: 1;
+}
+.gallery{
+    align-items: center;
+
+}
+.gallery div .item{
+    width: 450px;
+    height: 550px;
+    background-color: #DFE2E2;
+    transition: 0.3s;
+}
+.gallery div .item2{
+    width: 450px;
+    height: 550px;
+    background-color: #95D2D9;
+    transition: 0.3s;
+}
+.gallery div .header{
+    font-size: 44px;
+    font-family: 'Avenir LT BO';
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    color: black    ;
+    transition: 0.3s;
+}
+.gallery div .in-photo{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    transition: 0.3s;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.gallery a{
+    margin:30px;
+    height: 600px;
+}
+
+.slick-dotted.slick-slider{
+    display: none;
+}
+.slick-dotted.slick-slider.active{
+    display: block;
+}
+.slick-slider1 {
+    display :none;
+}
+.slick-slider2{
+    display:none;
+}
+.slick-slider3{
+    display: none;
+}
+/* page == about */
+.about-page h1{
+    font-size: 46px;
+    margin: 50px 0 20px 0;
+    text-align: center;
+    font-family: 'Avenir LT Stdb';
+}
+.about-page h3{
+    font-family: 'Avenir LT BO';
+    font-size: 23px;
+    background-color: #E8EAEA;
+    padding: 10%;
+    line-height:  28px;
+    margin: 50px 0;
+}
+/* page == signup */
+.signup{
+    background-color: #DCDFE0;
+    padding: 10% 30%;
+}
+.signup .form {
+    text-align: center;
+    background-color: #E5E7E7;
+}
+.signup .form .header{
+    font-size: 36px;
+    font-family: 'Avenir LT Stdb';
+    padding: 20px;
+}
+.signup .form form input{
+    border-bottom: 2px solid black;
+    margin: 20px 0;
+    padding: 20px 0;
+    text-align: center;
+    width: 70%;
+    font-size: 20px;
+    font-family: 'Avenir LT StdR';
+}
+.signup .form form input:focus{
+    outline:none !important;
+}
+.signup .form form .blue-bottom {
+    background-color:#95D2D9;
+    margin-top: 10%;
+    padding: 20px 0;
+}
+.blue-bottom .signiner{
+    width: 50%;
+} 
+.signup .form form div div input{
+    border:0;
+    width: 50%;
+    padding:  0;
+    margin:10px 0;
+    cursor: pointer;
+}
+.blue-bottom input:hover ~ .black-space{
+    width: 80%;
+    margin: 0;
+}
+.signup .form form div h3{
+    margin: 10px 0;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Avenir LT StdR';
+    cursor: pointer;
+}
+.signup .form form div h3:hover ~ .black-space{
+    width: 80%;
+    margin: 0;
+}
+/* region==footer */
+footer{
+    background-color: #3C415E;
+    width: 100%;
+
+}
+.social-link{
+    margin:50px;
+}
+.social-link img{
+    display: inline-block;
+    margin: 10px;
+    width: auto;
+    height: 27px;
+}
+.company{
+    margin-left:60px;
+    width: 13%;
+    align-items: center;
+}
+.company h1{
+    font-family:  'Avenir LT Std';
+    font-size:30px;
+    color: white;
+}
+
+.gallery a div:hover {
+    width: 500px;
+    height: 600px;
+}
