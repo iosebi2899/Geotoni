@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 textarea{
     text-decoration: none;
     width: 100%;
@@ -32,12 +35,7 @@ body{
 .align-center{
     align-items: center;
 }
-.hidden{
- display: none;
-}
-.shown{
-    display: block;
-}
+
 .flex{
     display: flex;
     justify-content: space-between;
@@ -49,7 +47,7 @@ body{
 }
 header{
     background-color: #3C415E;
-    padding: 60px  5%;
+    padding:4% 8%;
     align-items: center;
     text-align: center;
 }
@@ -61,9 +59,20 @@ header .logo {
     font-size: 50px;
     line-height: 50px;
 }
-.burger-icon{
+header .burger-icon{
     width: 40px;
     height: 28px;
+    cursor: pointer;
+}
+.burger{
+    display:none;
+    position: absolute;
+    width: 300px;
+    left: 0;
+    top: 140px;
+    height: 600px ;
+    z-index: 12341;
+    background-color: rgb(60,65,94,0.88 )
 }
 .lang-switcher{
     align-items: center;
@@ -414,11 +423,12 @@ header .logo {
 /* region==footer */
 footer{
     background-color: #3C415E;
-    width: 100%;
+    width: 87%;
+    padding:3% 8%;
 
 }
 .social-link{
-    margin:50px;
+    
 }
 .social-link img{
     display: inline-block;
@@ -427,7 +437,6 @@ footer{
     height: 27px;
 }
 .company{
-    margin-left:60px;
     width: 13%;
     align-items: center;
 }
@@ -441,3 +450,9 @@ footer{
     width: 500px;
     height: 600px;
 }
+.hidden{
+    display: none;
+   }
+   .shown{
+       display: block;
+   }

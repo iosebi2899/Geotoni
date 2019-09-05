@@ -30,6 +30,9 @@ $(".go-login").click(function () {
     $(".sign-in").toggleClass("hidden")
     $(".log-in").toggleClass("hidden")
 });
+$(".burger-icon").click(function () {
+    $(".burger").toggleClass("shown")
+});
 $(document).ready(function(){
     $('.gallery').slick({
         infinite: true,
