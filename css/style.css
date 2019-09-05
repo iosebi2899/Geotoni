@@ -68,8 +68,9 @@ header .burger-icon{
 .burger{
     display:none;
     position: absolute;
-    width: 300px;
+    width: 200px;
     left: 0;
+    top:0;
     height: 100vh ;
     z-index: -1;
     background-color: rgb(60,65,94,0.88 )
