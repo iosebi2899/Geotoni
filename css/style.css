@@ -27,9 +27,19 @@ body{
 .align-center{
     align-items: center;
 }
+.hidden{
+ display: none;
+}
+.shown{
+    display: block;
+}
 .flex{
     display: flex;
     justify-content: space-between;
+}
+.forgot{
+    font-size:12px;
+    font-family: 'Avenir LT light';
 }
 header{
     background-color: #3C415E;

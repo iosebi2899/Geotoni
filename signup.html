@@ -28,19 +28,37 @@
         </header>
     <main>
         <section class="signup">
-            <div class="form">
-                <h1 class="header">Sign up</h1>
+            <div class="form log-in">
+                <h1 class="header">Log in</h1>
+                <form action="/action_page.php">
+                    <input class="NAME" type="NAME" name="NAME" placeholder="Username" required><br>
+                    <input type="password" id="pass" name="password" placeholder="password" required><br>
+                    <a href="#"><p class="forgot">Forgot password</p></a>
+                    <div class="blue-bottom flex relative">
+                            <div class="relative signiner">
+                                <input href="cursor: pointer" class="submit" type="submit" value="Login">
+                                <div class="black-space"></div>
+                            </div>    
+                            <div class="relative signiner">
+                            <h3 class="go-signin">I'm not a member</h3>
+                            <div class="black-space"></div>
+                            </div>    
+                        </div>
+                </form>  
+            </div>
+            <div class="form sign-in  hidden">
+                <h1 class="header">Sign in</h1>
                 <form action="/action_page.php">
                     <input class="NAME" type="NAME" name="NAME" placeholder="Username" required><br>
                     <input type="password" id="pass" name="password" placeholder="password" required><br>
                     <input class="email" type="email" name="EMAIL" placeholder="E-mail" required><br>
                     <div class="blue-bottom flex relative">
                             <div class="relative signiner">
-                                <input href="cursor: pointer" class="submit" type="submit" value="Sign up now">
+                                <input href="cursor: pointer" class="submit" type="submit" value="Sign up">
                                 <div class="black-space"></div>
                             </div>    
                             <div class="relative signiner">
-                            <h3 class="go-login">I'm already a member</h3>
+                            <h3 class="go-login">I'm alredy member</h3>
                             <div class="black-space"></div>
                             </div>    
                         </div>

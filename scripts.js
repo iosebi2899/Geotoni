@@ -22,6 +22,14 @@ $(".events").click(function () {
     $(".slick-slider2").removeClass("active")
     $(".slick-slider1").removeClass("active")
 });
+$(".go-signin").click(function () {
+    $(".sign-in").toggleClass("hidden")
+    $(".log-in").toggleClass("hidden")
+});
+$(".go-login").click(function () {
+    $(".sign-in").toggleClass("hidden")
+    $(".log-in").toggleClass("hidden")
+});
 $(document).ready(function(){
     $('.gallery').slick({
         infinite: true,
