@@ -50,6 +50,7 @@ header{
     padding:4% 8%;
     align-items: center;
     text-align: center;
+    z-index:2;
 }
 header .logo {
     color: white;
@@ -69,9 +70,8 @@ header .burger-icon{
     position: absolute;
     width: 300px;
     left: 0;
-    top: 140px;
-    height: 600px ;
-    z-index: 12341;
+    height: 100vh ;
+    z-index: -1;
     background-color: rgb(60,65,94,0.88 )
 }
 .lang-switcher{
