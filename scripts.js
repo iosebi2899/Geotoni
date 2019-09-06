@@ -31,7 +31,7 @@ $(".go-login").click(function () {
     $(".log-in").toggleClass("hidden")
 });
 $(".burger-icon").click(function () {
-    $(".burger").toggleClass("shown")
+    $(".burger").toggleClass("shown-burger")
 });
 $(document).ready(function(){
     $('.gallery').slick({
