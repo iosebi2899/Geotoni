@@ -216,8 +216,8 @@ header .burger-icon{
     margin: 50px;
 }
 .in-portal .content img{
-    width: 15%;
-    margin-right: 10%;
+    width: 8%;
+    margin-left:8%;
 }
 .portal-text{
     width: 80%;
@@ -226,12 +226,12 @@ header .burger-icon{
 }
 .in-portal .content .portal-text h2{
     font-family: 'Avenir LT BO';
-    font-size: 36px;
-    margin: 20px 0;
+    font-size: 30px;
+    margin: 10px 0;
 }
 .in-portal .content .portal-text h3{
     font-family: 'Avenir LT book';
-    font-size: 18px;
+    font-size: 14px;
     line-height: 26px;
 }
 
@@ -318,7 +318,7 @@ header .burger-icon{
 .gallery div .item2{
     width: 450px;
     height: 550px;
-    background-color: #95D2D9;
+    background-color:rgb(60,65,94,0.7);
     transition: 0.3s;
 }
 .gallery div .header{
@@ -403,7 +403,7 @@ header .burger-icon{
     outline:none !important;
 }
 .signup .form form .blue-bottom {
-    background-color:#95D2D9;
+    background-color:rgb(60,65,94,0.7);
     margin-top: 10%;
 }
 .blue-bottom .signiner{
