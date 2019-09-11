@@ -83,6 +83,9 @@ header .burger-icon{
     margin: 12% 20%;
     font-family: 'HelveticaNeuereg';
 }
+.padding-top{
+    padding-top:12%;
+}
 .burger hr{
     margin: 0 60px;
 }
@@ -205,7 +208,7 @@ header .burger-icon{
     font-family: 'Avenir LT Stdb';
     font-size: 46px;
     text-align: center;
-    padding: 60px 0;
+    padding: 45px 0;
 }
 .portal .in-portal{
     background-color: #738598;
@@ -267,10 +270,10 @@ header .burger-icon{
 /* section == WYN */
 .WYN{
     height: 760px;
-    padding-top: 150px
+    padding-top: 120px
 }
 .padding{
-    padding: 40px 0;
+    padding: 55px 0;
 }
 .WYN .what-you-need{
     position: absolute;
