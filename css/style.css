@@ -47,7 +47,7 @@ body{
 }
 header{
     background-color: #3C415E;
-    padding:4% 8%;
+    padding:2% 8%;
     align-items: center;
     text-align: center;
     z-index:2;
@@ -57,12 +57,12 @@ header .logo {
     left: 50%;
     transform: translateX(-50%);
     font-family: 'Avenir LT BO';
-    font-size: 50px;
+    font-size: 30px;
     line-height: 50px;
 }
 header .burger-icon{
-    width: 40px;
-    height: 28px;
+    width: 30px;
+    height: auto;
     cursor: pointer;
 }
 .burger{
@@ -120,10 +120,11 @@ header .burger-icon{
 }
 .banner-img{
     width: 100%;
+    height: 100vh
 }
 .sig{
     left: 50%;
-    top: 15%;
+    top: 22%;
     width: 100%;
     transform: translateX(-50%);
     text-align:center;
@@ -134,7 +135,7 @@ header .burger-icon{
 }
 .Q_A{
     left: 50%;
-    bottom: 25%;
+    bottom: 18%;
     transform: translateX(-50%);
     text-align: center;
 }
@@ -190,7 +191,7 @@ header .burger-icon{
 .about .text h2{
     color: black;
     font-family: 'Avenir LTlight';
-    font-size: 60px;
+    font-size: 30px;
     margin-bottom: 40px;
 }
 .about .text p{
@@ -226,7 +227,7 @@ header .burger-icon{
 }
 .in-portal .content .portal-text h2{
     font-family: 'Avenir LT BO';
-    font-size: 30px;
+    font-size: 26px;
     margin: 10px 0;
 }
 .in-portal .content .portal-text h3{
@@ -265,7 +266,7 @@ header .burger-icon{
 }
 /* section == WYN */
 .WYN{
-    height: 800px;
+    height: 760px;
     padding-top: 150px
 }
 .padding{
@@ -436,7 +437,7 @@ header .burger-icon{
 footer{
     background-color: #3C415E;
     width: 87%;
-    padding:3% 8%;
+    padding:1% 8%;
 
 }
 .social-link{
@@ -454,7 +455,7 @@ footer{
 }
 .company h1{
     font-family:  'Avenir LT Std';
-    font-size:30px;
+    font-size:25px;
     color: white;
 }
 
