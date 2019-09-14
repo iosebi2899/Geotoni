@@ -8,7 +8,7 @@ textarea{
     color: black;
     border:0;
     resize: none;
-    font-size:22px;
+    font-size:14px;
     line-height: 26px;
     font-family: 'Avenir LT book';
 }
@@ -26,6 +26,10 @@ textarea:focus{
 body{
     overflow-x: hidden;
 }
+hr{
+    width: 100%;
+    border-color: #707070;
+}
 .relative{
     position: relative;
 }
@@ -35,7 +39,6 @@ body{
 .align-center{
     align-items: center;
 }
-
 .flex{
     display: flex;
     justify-content: space-between;
@@ -51,6 +54,9 @@ header{
     align-items: center;
     text-align: center;
     z-index:2;
+}
+hr{
+    width: 70%;
 }
 header .logo {
     color: white;
@@ -215,30 +221,66 @@ header .burger-icon{
     padding: 80px;
     color: white;
 }
+.in-portal2{
+    background-color: #DFE2E2;
+    color: white;
+    padding: 5% 15%;
+}
 .content{
     align-items: center;
     margin: 50px;
 }
+.in-portal2 .content{
+    margin: 2% 0;
+    width: 60%;
+}
 .in-portal .content img{
-    width: 8%;
+    width: 6%;
     margin-left:8%;
 }
-.portal-text{
+.in-portal2 .content img{
+    width: 8%;
+    margin-right: 2%;
+}
+.in-portal .content .portal-text{
     width: 80%;
     color: black;
     font-family: 'Avenir LT BO';
 }
+.in-portal2 .content .portal-text{
+    width: 85%;
+    color: black;
+    font-family: 'Avenir LT BO';
+}
+.in-portal2 .content .portal-text h2{
+    font-family: 'Avenir LT BO';
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 0;
+}
 .in-portal .content .portal-text h2{
     font-family: 'Avenir LT BO';
-    font-size: 26px;
+    font-size: 20px;
     margin: 10px 0;
+}
+.in-portal2 .content .portal-text h3{
+    font-family: 'Avenir LT book';
+    font-size: 12px;
+    line-height: 26px;
 }
 .in-portal .content .portal-text h3{
     font-family: 'Avenir LT book';
     font-size: 14px;
     line-height: 26px;
 }
-
+.view-more{
+    background-color: none;
+    border: 0;
+    cursor: pointer;
+}
+.view-more:focus{
+    outline: none !important;
+}
 .lm{
     bottom: 10%;
     right: 7%;
@@ -250,12 +292,12 @@ header .burger-icon{
     font-family: 'Avenir LTlight';
     color: black;
     padding: 10px;
-    transition:0.3s;
-    border-radius: 15px;
+    transition:0.5s;
+    border-radius: 25px;
 }
 .lm a:hover{
-    background-color:#3C415E;
-    color:white;
+    background-color:white;
+    color:Black;
 }
 .photo{
     width: 50%;
@@ -267,10 +309,112 @@ header .burger-icon{
     margin-left: 50%;
     transform: translateX(-50%);
 }
+/* Page == portal*/
+    .search .header{
+        font-size: 46px;
+        font-family: 'Avenir LT Stdb';
+        text-align:center;
+        padding: 35px 0;
+    }
+    .search .FOS{
+        width: 30%;
+        margin:0 35%;
+        height: 60px;
+    }
+    .S {
+            font-size:20px;
+            color: grey;
+            transition: 0.3s;
+            font-family: 'Avenir LT StdR';
+            cursor: pointer;
+    }
+    .F {
+        font-size:20px;
+            color: grey;
+            transition: 0.3s;
+            font-family: 'Avenir LT StdR';
+            cursor: pointer;
+    }
+    .active-fos{
+        font-size: 30px;
+        color: black;
+    }
+    .info {
+        background-color: #738598;
+        padding: 5% 10%;
+        height: 18vh;
+    }
+    .choice {
+        width:30%;
+        text-align: center;
+        font-size: 16px;
+        color: black;
+        font-family: 'Avenir LT StdR';
+    }
+    select,option{
+        font-size: 14px;
+        color: black;
+        font-family: 'Avenir LT StdR';
+        width: 70%;
+        height: 20%;
+        background-color: transparent;
+    }
+    select{
+        border: 0;
+    }
+    select:focus{
+        outline:none !important;
+    }
+    .portal-search{
+        border: 0;
+        background-color: transparent;
+        position: absolute;
+        right: 7.5%;
+        bottom: 8%;
+        font-family: 'Avenir LT StdR';
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: transparent;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .portal-search:hover{
+        background-color: white;
+    }
+    .Ski-Tourism{
+        background-color: #DFE2E2;
+    }
+    .Ski-Tourism h1{
+        text-align: center;
+        font-size:36px;
+        font-family: 'Avenir LT StdR';
+        padding: 2% 15%;
+    }
+    .Ski-Tourism h2{
+        margin: 50px 0;
+        font-family: 'Avenir LT StdR';
+        line-height: 19px;
+        padding: 0 15%;
+    }
+    .in-content{
+        margin: 0 15%;
+    }
+    .in-content p{
+        margin-right: 20px;
+    }
+    .in-content button{
+        border: 0;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .in-content img{
+       
+    }
 /* section == WYN */
 .WYN{
     height: 760px;
-    padding-top: 120px
+    padding-top: 120px;
 }
 .padding{
     padding: 55px 0;
@@ -306,7 +450,6 @@ header .burger-icon{
 }
 .WYN .bigger{
     font-size: 45px;
-    text-decoration: underline;
     opacity: 1;
 }
 .gallery{
@@ -424,6 +567,10 @@ header .burger-icon{
     width: 80%;
     margin: 0;
 }
+.FOS div h3:hover ~ .black-space{
+    width: 80%;
+    margin:0;
+}
 .signup .form form div h3{
     margin: 20px 0;
     text-align: center;
@@ -436,15 +583,13 @@ header .burger-icon{
     width: 80%;
     margin: 0;
 }
+
 /* region==footer */
 footer{
     background-color: #3C415E;
     width: 87%;
     padding:1% 8%;
 
-}
-.social-link{
-    
 }
 .social-link img{
     display: inline-block;

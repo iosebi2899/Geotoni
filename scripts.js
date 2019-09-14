@@ -33,6 +33,15 @@ $(".go-login").click(function () {
 $(".burger-icon").click(function () {
     $(".burger").toggleClass("shown-burger")
 });
+$(".F").click(function () {
+    $(this).addClass("active-fos")
+    $(".S").removeClass("active-fos")
+});
+$(".S").click(function () {
+    $(this).addClass("active-fos")
+    $(".F").removeClass("active-fos")
+});
+
 $(document).ready(function(){
     $('.gallery').slick({
         infinite: true,
