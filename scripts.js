@@ -22,6 +22,48 @@ $(".events").click(function () {
     $(".slick-slider2").removeClass("active")
     $(".slick-slider1").removeClass("active")
 });
+$(".types2").click(function () {
+    $(this).addClass("bigger")
+    $(".what-you-need2").removeClass("bigger")
+    $(".events2").removeClass("bigger")
+});
+$(".what-you-need2").click(function () {
+    $(this).addClass("bigger")
+    $(".types2").removeClass("bigger")
+    $(".events2").removeClass("bigger")
+});
+$(".events2").click(function () {
+    $(this).addClass("bigger")
+    $(".types2").removeClass("bigger")
+    $(".what-you-need2").removeClass("bigger")
+});
+$(".hotels").click(function () {
+    $(this).addClass("bigger")
+    $(".restourants").removeClass("bigger")
+    $(".night-Clubs").removeClass("bigger")
+    $(".Bar-and-lounge").removeClass("bigger")
+});
+$(".night-Clubs").click(function () {
+    $(this).addClass("bigger")
+    $(".hotels").removeClass("bigger")
+    $(".restourants").removeClass("bigger")
+    $(".Bar-and-lounge").removeClass("bigger")
+});
+$(".Bar-and-lounge").click(function () {
+    $(this).addClass("bigger")
+    $(".hotels").removeClass("bigger")
+    $(".night-Clubs").removeClass("bigger")
+    $(".restourants").removeClass("bigger")
+});
+$(".restourants").click(function () {
+    $(this).addClass("bigger")
+    $(".hotels").removeClass("bigger")
+    $(".night-Clubs").removeClass("bigger")
+    $(".Bar-and-lounge").removeClass("bigger")
+});
+
+
+
 $(".go-signin").click(function () {
     $(".sign-in").toggleClass("hidden")
     $(".log-in").toggleClass("hidden")

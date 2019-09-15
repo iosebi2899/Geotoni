@@ -18,7 +18,7 @@ textarea{
     box-shadow:         inset 0 0 3px #666666;
  }
 textarea::placeholder{
-    color: black;
+    color: white;
 }
 textarea:focus{
     outline:none !important;
@@ -28,7 +28,7 @@ body{
 }
 hr{
     width: 100%;
-    border-color: #707070;
+    border-color: white;
 }
 .relative{
     position: relative;
@@ -172,7 +172,7 @@ header .burger-icon{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    background-color: black;
+    background-color: white;
     width: 0;
     margin:0 50%;
     height: 2px;
@@ -262,6 +262,7 @@ header .burger-icon{
     font-family: 'Avenir LT BO';
     font-size: 20px;
     margin: 10px 0;
+    color: white;
 }
 .in-portal2 .content .portal-text h3{
     font-family: 'Avenir LT book';
@@ -272,6 +273,7 @@ header .burger-icon{
     font-family: 'Avenir LT book';
     font-size: 14px;
     line-height: 26px;
+    color: white;
 }
 .view-more{
     background-color: none;
@@ -285,15 +287,21 @@ header .burger-icon{
     bottom: 10%;
     right: 7%;
 }
+
 .lm a{
     font-size:20px;
     margin: 20px;
     background-color: transparent; 
     font-family: 'Avenir LTlight';
-    color: black;
     padding: 10px;
     transition:0.5s;
     border-radius: 25px;
+}
+.lma{
+    color: white;
+}
+.lma2{
+    color: black;
 }
 .lm a:hover{
     background-color:white;
@@ -348,16 +356,19 @@ header .burger-icon{
         width:30%;
         text-align: center;
         font-size: 16px;
-        color: black;
+        color: white;
         font-family: 'Avenir LT StdR';
     }
     select,option{
         font-size: 14px;
-        color: black;
+        color: white;
         font-family: 'Avenir LT StdR';
         width: 70%;
         height: 20%;
         background-color: transparent;
+    }
+    option{
+        color:black;
     }
     select{
         border: 0;
@@ -373,6 +384,7 @@ header .burger-icon{
         bottom: 8%;
         font-family: 'Avenir LT StdR';
         font-size: 16px;
+        color: white;
         padding: 10px;
         border-radius: 15px;
         background-color: transparent;
@@ -381,9 +393,14 @@ header .burger-icon{
     }
     .portal-search:hover{
         background-color: white;
+        color: black;
     }
     .Ski-Tourism{
         background-color: #DFE2E2;
+        margin: 50px 0;
+    }
+    .textarea2::placeholder{
+        color: black;
     }
     .Ski-Tourism h1{
         text-align: center;
@@ -405,15 +422,13 @@ header .burger-icon{
     }
     .in-content button{
         border: 0;
+        background-color: transparent;
         margin-left: 20px;
         cursor: pointer;
     }
-    .in-content img{
-       
-    }
 /* section == WYN */
 .WYN{
-    height: 760px;
+    height: 800px;
     padding-top: 120px;
 }
 .padding{
@@ -468,6 +483,9 @@ header .burger-icon{
     background-color:rgb(60,65,94,0.7);
     transition: 0.3s;
 }
+.gallery div .item2 .header{
+    color: white;
+}
 .gallery div .header{
     font-size: 44px;
     font-family: 'Avenir LT BO';
@@ -507,6 +525,23 @@ header .burger-icon{
 }
 .slick-slider3{
     display: none;
+}
+.GG{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size:16px;
+    background-color: transparent; 
+    font-family: 'Avenir LTlight';
+    color: black;
+    transition:0.5s;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 10px;
+}
+.GG:hover{
+    background-color: rgb(60,65,94,0.7);
+    color:white;
 }
 /* page == about */
 .about-page h1{
@@ -557,6 +592,7 @@ header .burger-icon{
     width: 50%;
 } 
 .signup .form form div div input{
+    color:white;
     border:0;
     width: 50%;
     padding:  0;
@@ -574,7 +610,7 @@ header .burger-icon{
 .signup .form form div h3{
     margin: 20px 0;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 20px;
     font-family: 'Avenir LT StdR';
     cursor: pointer;
@@ -583,7 +619,120 @@ header .burger-icon{
     width: 80%;
     margin: 0;
 }
+/* page == gallery */
+main{
+    background-color: #DCDFE0;
+}
+.header-choice{
+    width: 40%;
+    height: 6vh;
+    padding: 50px 30%;
+}
+.header-choice a{
+    color: black;
+    font-size:20px;
+    font-family: 'Avenir LT Stdb';
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.header-choice .bigger{
+    opacity: 1;
+    font-size:36px;
+}
+.second-choice{
+    width: 40%;
+    height: 10vh;
+    padding: 0px 30%;
+}
+.second-choice a{
+    color: black;
+    font-size:14px;
+    font-family: 'Avenir LT BO';
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.second-choice .bigger{
+    opacity: 1;
+    font-size:26px;
+    font-family: 'Avenir LT book';
+}
+.info2 {
+    width: 40%;
+    padding: 0 30%;
+    padding-bottom: 30px;
+}
+.info2 .choice-gallery{
+    width:30%;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    font-family: 'Avenir LT Stdm';
+}
+.choice-gallery select,option{
+    font-size: 14px;
+    color: black;
+    font-family: 'Avenir LT Stdm';
+    width: 70%;
+    height: 20%;
+    background-color: transparent;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.in-gallery{
+    padding: 2% 10%;
+    width: 80%
+}
+.in-gallery-content1{
+    background-color:#DFE2E2; 
+    width: 40%;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 5%;
+    box-shadow:6px 6px 6px #8c8c8c;
+}
+.in-gallery-content1 img{
+    width: 60%;
+    padding:0 20%;
+    height: auto;
+}
+.in-gallery-content2{
+    background: rgb(60,65,94,0.7 );
+    width: 40%;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 5%;
+    box-shadow:6px 6px 6px #8c8c8c;
+}
+.in-gallery-content2 img{
+    width: 60%;
+    padding: 0% 20%;
+    height: auto;
+}
+.in-gallery-content1 h3{
+    font-size: 18px;
+    padding: 20px;
+    font-family: 'Avenir LT Stdm';
+}
+.in-gallery-content2 h3{
+    font-size: 18px;
+    padding: 20px;
+    font-family: 'Avenir LT Stdm';
+    color: white;
+}
+.page-switching {
+    width: 30%;
+    padding: 5% 35%;
 
+}
+.page-switching a{
+    font-size: 18px;
+    font-family: 'Avenir LT Stdm';
+    color: white;
+    padding: 10px 20px;
+    background-color: rgb(60,65,94,0.7 );
+    border-radius: 15px;
+}
 /* region==footer */
 footer{
     background-color: #3C415E;
