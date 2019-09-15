@@ -144,7 +144,7 @@ header .burger-icon{
 }
 .Q_A{
     left: 50%;
-    bottom: 18%;
+    bottom: 15%;
     transform: translateX(-50%);
     text-align: center;
 }
@@ -620,8 +620,8 @@ header .burger-icon{
     margin: 0;
 }
 /* page == gallery */
-main{
-    background-color: #DCDFE0;
+.main{
+    background-color: #f2f2f2;
 }
 .header-choice{
     width: 40%;
@@ -662,13 +662,21 @@ main{
     padding-bottom: 30px;
 }
 .info2 .choice-gallery{
-    width:30%;
+    width:40%;
     text-align: center;
     font-size: 14px;
     color: black;
     font-family: 'Avenir LT Stdm';
 }
 .choice-gallery select,option{
+    font-size: 14px;
+    color: black;
+    font-family: 'Avenir LT Stdm';
+    width: 70%;
+    height: 20%;
+    background-color: transparent;
+}
+.choice-gallery div textarea{
     font-size: 14px;
     color: black;
     font-family: 'Avenir LT Stdm';
