@@ -554,7 +554,7 @@ header .burger-icon{
     font-family: 'Avenir LT BO';
     font-size: 23px;
     background-color: #E8EAEA;
-    padding: 10%;
+    padding: 6%;
     line-height:  28px;
     margin: 50px 0;
 }
@@ -574,19 +574,50 @@ header .burger-icon{
 }
 .signup .form form input{
     border-bottom: 2px solid black;
-    margin: 20px 0;
-    padding: 20px 0;
+    margin: 20px 10px;
+    padding: 15px 0;
     text-align: center;
-    width: 70%;
+    width: 30%;
     font-size: 20px;
     font-family: 'Avenir LT StdR';
+}
+.signup .form form .email{
+    width: 65%
+}
+.signup .form form .date{
+    width: 65%
 }
 .signup .form form input:focus{
     outline:none !important;
 }
+.signup .form form .gender{
+    width: 60%;
+    margin:2% 20%;
+}
+.signup .form form .gender input{
+    width: 50px;
+    margin: 0;
+    padding: 0;
+}
 .signup .form form .blue-bottom {
     background-color:rgb(60,65,94,0.7);
     margin-top: 10%;
+}
+.location{
+    width: 100%;
+
+}
+#country{
+    width: 65%;
+    padding: 15px 0;
+    font-size:20px;
+}
+.location select,option{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.sigunp .sign-in .location div input{
+    width: 65%;
 }
 .blue-bottom .signiner{
     width: 50%;
@@ -667,6 +698,9 @@ header .burger-icon{
     font-size: 14px;
     color: black;
     font-family: 'Avenir LT Stdm';
+}
+.choice-text{
+    font-family: 'Avenir LT Stdr';
 }
 .choice-gallery select,option{
     font-size: 14px;
@@ -779,4 +813,21 @@ footer{
 }
 .default{
     cursor: default;
+}
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+/* clears the 'X' from Internet Explorer */
+input[type=search]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal {  display: none; width : 0; height: 0; }
+
+/* clears the 'X' from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+input:focus{
+    outline: none !important;
 }
