@@ -61,6 +61,14 @@ $(".restourants").click(function () {
     $(".night-Clubs").removeClass("bigger")
     $(".Bar-and-lounge").removeClass("bigger")
 });
+$(".S").click(function () {
+    $(".info").toggleClass("hidden")
+
+});
+$(".F").click(function () {
+    $(".info").toggleClass("hidden")
+
+});
 
 
 
