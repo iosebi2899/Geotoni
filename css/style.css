@@ -25,6 +25,7 @@ textarea:focus{
 }
 body{
     overflow-x: hidden;
+    background-image: url("../img/bg.jpg")
 }
 hr{
     width: 100%;
@@ -191,7 +192,7 @@ header .burger-icon{
 }
 .about{
     margin-top:-3px;
-    background-color:#DFE2E2;
+    background-color:rgb(223,226,226, 0.8)
 }
 .about .text{
 
@@ -217,12 +218,11 @@ header .burger-icon{
     padding: 45px 0;
 }
 .portal .in-portal{
-    background-color: #738598;
+    background-color: rgb(115,133,152, 0.8);
     padding: 80px;
     color: white;
 }
 .in-portal2{
-    background-color: #DFE2E2;
     color: white;
     padding: 5% 15%;
 }
@@ -348,7 +348,7 @@ header .burger-icon{
         color: black;
     }
     .info {
-        background-color: #738598;
+        background-color: rgb(115,133,152,0.8);
         padding: 5% 10%;
     }
     .choice {
@@ -435,7 +435,7 @@ header .burger-icon{
         color: black;
     }
     .Ski-Tourism{
-        background-color: #DFE2E2;
+        background-color: rgb(223,226,226,0.8);
         margin: 50px 0;
     }
     .textarea2::placeholder{
@@ -519,7 +519,7 @@ header .burger-icon{
 .gallery div .item2{
     width: 450px;
     height: 550px;
-    background-color:rgb(60,65,94,0.7);
+    background-color:rgb(60,65,94);
     transition: 0.3s;
 }
 .gallery div .item2 .header{
@@ -571,7 +571,7 @@ header .burger-icon{
     transform: translateX(-50%);
     font-size:16px;
     background-color: transparent; 
-    font-family: 'Avenir LTlight';
+    font-family: 'Avenir LT Stdb';
     color: black;
     transition:0.5s;
     border-radius: 25px;
@@ -592,7 +592,7 @@ header .burger-icon{
 .about-page h3{
     font-family: 'Avenir LT BO';
     font-size: 23px;
-    background-color: #E8EAEA;
+    background-color: rgb(232,234,234, 0.8);
     padding: 6%;
     line-height:  28px;
     margin: 50px 0;
@@ -773,7 +773,7 @@ header .burger-icon{
     height: auto;
 }
 .in-gallery-content2{
-    background: rgb(60,65,94,0.7 );
+    background: rgb(60,65,94);
     width: 40%;
     text-align: center;
     padding: 2%;
