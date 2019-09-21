@@ -85,6 +85,7 @@ header .burger-icon{
     transition: 0.3s height;
     overflow: hidden;
 }
+
 .burger a p{
     font-size: 16px;
     margin: 12% 20%;
@@ -98,6 +99,7 @@ header .burger-icon{
 }
 .lang-switcher{
     align-items: center;
+    padding-right:10%;
 }
 .lang-switcher p{
     font-family: 'Avenir LT book';
@@ -107,7 +109,7 @@ header .burger-icon{
 .arrowdown{
     width:12px;
     height: 6px;
-    margin: 0 40px 0 5px;
+    margin:5px;
 }
 .absolute.p{
     right: 5%;
@@ -116,11 +118,48 @@ header .burger-icon{
 }
 .p a{
     color:white;
-    size: 20px;
+    font-size: 20px;
     font-family:  'Avenir LT book';
     text-transform: uppercase;
 
 }
+@media (max-width: 1050px){
+    .p a{
+        font-size: 18px;
+    }
+    .lang-switcher p{
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px){
+    .p a{
+        font-size: 10px;
+    }
+    .lang-switcher p{
+        font-size: 10px;
+    }
+    .burger-icon{
+        width:15px;
+    }
+    .burger{
+        width: 150px;
+    }
+    .burger a p{
+        font-size:10px;
+        margin: 25% 20%;
+    }
+    header .burger-icon{
+     width:15px;
+ }
+     header .logo{
+        font-size:18px;
+     }  
+}
+@media (max-width:418px){
+    header .logo{
+    font-size: 10px;
+    }
+ }
 /* header-end */
 
 
@@ -130,7 +169,12 @@ header .burger-icon{
 }
 .banner-img{
     width: 100%;
-    height: 100vh
+    height: 100vh;
+}
+@media (max-width: 1050px){
+    .banner-img{
+        height: auto;
+    }
 }
 .sig{
     left: 50%;
@@ -139,7 +183,7 @@ header .burger-icon{
     transform: translateX(-50%);
     text-align:center;
     font-family: 'Avenir LT Stdb';
-    font-size: 64px;
+    font-size: 6vw;
     color: white;
     text-shadow: 2px 2px rgb(2, 3, 0,0.7 );
 }
@@ -150,12 +194,34 @@ header .burger-icon{
     text-align: center;
 }
 .variant1 p {
-    font-size: 35px;
+    font-size: 36px;
     font-family: 'Avenir LT book';
     color: white;
     padding: 30px;
     transition: 0.3s;
     opacity: 0.7;
+}
+.variant1 p:hover{
+    opacity: 1;
+    font-size: 40px;
+}
+@media (max-width: 1050px){
+    .variant1 p{
+        padding: 15px;
+    }
+}
+@media (max-width: 768px){
+    .variant1 p{
+        opacity: 1;
+        font-size:24px;
+        padding: 8px;
+    }
+    .variant1 p:hover{
+        font-size:30px;
+    }
+    .for-dissapear{
+        display:none;
+    }
 }
 .white-space{
     position: absolute;
@@ -182,10 +248,7 @@ header .burger-icon{
 
 }
 
-.variant1 p:hover{
-    opacity: 1;
-    font-size: 45px;
-}
+
 .variant1 p:hover ~ .white-space{
     width: 80%;
     margin: 0;
@@ -195,8 +258,8 @@ header .burger-icon{
     background-color:rgb(223,226,226, 0.8)
 }
 .about .text{
-
-    padding: 130px;
+    padding: 10%;
+    padding-bottom:150px;
 }
 .about .text h2{
     color: black;
@@ -210,21 +273,22 @@ header .burger-icon{
     font-size: 18px;
     line-height: 36px;
 }
-
 .portal .header {
     font-family: 'Avenir LT Stdb';
     font-size: 46px;
     text-align: center;
-    padding: 45px 0;
+    margin: 45px 0;
 }
 .portal .in-portal{
-    background-color: rgb(115,133,152, 0.8);
-    padding: 80px;
     color: white;
+    background-color: rgb(115,133,152, 0.8);
+    padding:2% 0;
+    padding-bottom: 80px;
 }
 .in-portal2{
     color: white;
     padding: 5% 15%;
+    margin: 5%;
 }
 .content{
     align-items: center;
@@ -238,6 +302,25 @@ header .burger-icon{
     width: 6%;
     margin-left:8%;
 }
+@media (max-width: 1050px){
+    .in-portal .content img{
+        margin-right: 20px;
+        width: 10%;
+    }
+    .content{
+        margin: 20px;
+    }
+}
+@media (max-width: 700px){
+    .in-portal .content img{
+        margin-right: 30px;
+        width: 12%;
+    }
+    .content{
+        margin: 40px 20px;
+    }
+}
+
 .in-portal2 .content img{
     width: 8%;
     margin-right: 2%;
@@ -301,11 +384,16 @@ header .burger-icon{
     color: white;
 }
 .lma2{
+    background-color: transparent; 
     color: black;
 }
-.lm a:hover{
+.lma:hover{
     background-color:white;
     color:Black;
+}
+.lma2:hover{
+    background-color:rgb(115,133,152, 0.8);
+    color:white;
 }
 .photo{
     width: 50%;
@@ -501,6 +589,14 @@ header .burger-icon{
     font-family: 'Avenir LT Stdb';
     font-size: 24px;
     opacity: 0.7;
+}
+@media (max-width: 1050px){
+    .events{
+        right: 15%;
+    }
+    .types{
+        left:15%;
+    }
 }
 .WYN .bigger{
     font-size: 45px;
