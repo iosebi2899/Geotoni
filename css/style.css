@@ -103,7 +103,7 @@ header .burger-icon{
 }
 .lang-switcher p{
     font-family: 'Avenir LT book';
-    size:20px;
+    font-size:20px;
     color: white;
 }
 .arrowdown{
@@ -115,6 +115,9 @@ header .burger-icon{
     right: 5%;
     top: 50%;
     transform: translateY(-50%);
+}
+.p{
+    height: 18px;
 }
 .p a{
     color:white;
@@ -221,6 +224,16 @@ header .burger-icon{
     }
     .for-dissapear{
         display:none;
+    }
+}
+@media (max-width: 451px){
+    .variant1 p{
+        padding: 15px;
+        font-size:12px;
+        padding: 8px;
+    }
+    .variant1 p:hover{
+        font-size:15px;
     }
 }
 .white-space{
