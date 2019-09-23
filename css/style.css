@@ -969,7 +969,7 @@ input:focus{
     }  
     .about .text p {
         font-size: 15px;
-        line-height: 12px;
+        line-height: 18px;
     }
     .lm a {
         font-size: 15px;
@@ -991,19 +991,19 @@ input:focus{
     }
     .in-portal .content .portal-text h3 {
         font-size: 15px;
-        line-height: 14px;
+        line-height: 18px;
     }
     .events {
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .WYN .what-you-need {
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .types {
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .WYN .bigger{
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .padding{
         padding:22px;
