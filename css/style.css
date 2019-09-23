@@ -969,7 +969,7 @@ input:focus{
     }  
     .about .text p {
         font-size: 15px;
-        line-height: 18px;
+        line-height: 22px;
     }
     .lm a {
         font-size: 15px;
@@ -991,7 +991,7 @@ input:focus{
     }
     .in-portal .content .portal-text h3 {
         font-size: 15px;
-        line-height: 18px;
+        line-height: 22px;
     }
     .events {
         font-size: 3vw;
