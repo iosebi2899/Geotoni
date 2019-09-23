@@ -918,6 +918,10 @@ footer{
 .default{
     cursor: default;
 }
+.dude{
+    color: white;
+    font-size: 16px;
+}
 input[type=date]::-webkit-inner-spin-button,
 input[type=date]::-webkit-outer-spin-button {
   -webkit-appearance: none;
@@ -1117,6 +1121,9 @@ input:focus{
     }
     .view-more{
         margin: 20px 0;
+    }
+    .dude{
+        font-size: 8px;
     }
 }  
 @media (max-width:585px){
