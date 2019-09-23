@@ -985,9 +985,87 @@ input:focus{
         font-size: 20px;
         margin: 20px 0;
     }
-}
+    .portal .in-portal {
+        padding-top: 1px;
+        padding-bottom: 20px;
+    }
+    .in-portal .content .portal-text h2 {
+     font-size: 14px;
+    }
+    .in-portal .content .portal-text h3 {
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .events {
+        font-size: 2vw;
+    }
+    .WYN .what-you-need {
+        font-size: 2vw;
+    }
+    .types {
+        font-size: 2vw;
+    }
+    .WYN .bigger{
+        font-size: 3vw;
+    }
+    .padding{
+        padding:22px;
+    }
+    .WYN{
+        height: 65vw;
+    }
+    .gallery div .header {
+        font-size: 10px;
+    }
+    .gallery div .item2 {
+        width: 200px;
+        height: 250px;
+    }  
+    .gallery div .item {
+        width: 200px;
+        height: 250px;
+    }  
+    .gallery a{
+        margin:10px;
+        height: 270px;
+    }
+    .WYN {
+        padding-top: 50px;
+    }
+    .gallery a div:hover {
+        width: 220px;
+        height: 270px;
+    }
+    .GG{
+        font-size:10px;
+    }
+    .company h1 {
+        font-size: 15px;
+    }
+    .social-link img{
+        height: 14px;
+    }
+}  
+@media (max-width:585px){
+    .WYN{
+        height: 75vw;
+    }
+ } 
+ @media (max-width:500px){
+    .WYN{
+        height: 85vw;
+    }
+ }
 @media (max-width:418px){
     header .logo{
     font-size: 10px;
+    }
+    .WYN{
+        height: 100vw;
+    }
+ }
+ @media (max-width:370px){
+    .WYN{
+        height: 120vw;
     }
  }
