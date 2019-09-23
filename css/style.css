@@ -807,6 +807,7 @@ header .burger-icon{
 }
 .choice-text{
     font-family: 'Avenir LT Stdr';
+    font-size: 18px;
 }
 .choice-gallery select,option{
     font-size: 14px;
@@ -946,6 +947,16 @@ input:focus{
     }
     .lang-switcher p{
         font-size: 12px;
+    }
+    .header-choice {
+        width: 60%;
+        height: 6vh;
+        padding: 2% 20%;
+    }
+    .second-choice {
+        width: 60%;
+        height: 10vh;
+        padding: 0px 20%;
     }
 }
 @media (max-width: 768px){
@@ -1133,6 +1144,50 @@ input:focus{
     select, option {
         font-size: 8px;
     }
+    .header-choice {
+        width: 80%;
+        height: 2vh;
+        padding: 5% 10%;
+    }
+    .second-choice {
+        width: 80%;
+        height: 6vh;
+        padding: 0px 10%;
+    }
+    .header-choice a{
+        font-size: 16px;
+    }
+    .header-choice .bigger {
+        font-size: 24px;
+    }
+    .second-choice .bigger {
+        font-size: 24px;
+    }
+    .info2{
+        padding-bottom: -25px;
+        width: 60%;
+        padding: 0 20%;
+    }
+    .choice-gallery select, option {
+        font-size: 8px;
+    }
+    .in-gallery-content1 h3 {
+        font-size: 10px;
+    }
+    .in-gallery-content2 h3 {
+        font-size: 10px;
+    }
+    .page-switching {
+        width: 100%;
+        padding: 5% 0;
+    }
+    .page-switching a {
+        font-size: 12px;
+    }
+    .choice-text{
+        font-size: 8px;
+    }
+    
 }  
 @media (max-width:585px){
     .WYN{
@@ -1149,8 +1204,20 @@ input:focus{
         height: 85vw;
     }
     .burger a p {
-        font-size: 15px;
+        font-size: 10px;
         margin: 25% 20%;
+    }
+    .header-choice a{
+        font-size: 10px;
+    }
+    .header-choice .bigger {
+        font-size: 16px;
+    }
+    .second-choice a{
+        font-size: 10px;
+    }
+    .second-choice .bigger {
+        font-size: 16px;
     }
  }
 @media (max-width:418px){
@@ -1160,9 +1227,24 @@ input:focus{
     .WYN{
         height: 100vw;
     }
+    .page-switching a {
+        padding: 5px 10px;
+    }
  }
  @media (max-width:370px){
     .WYN{
         height: 120vw;
+    }
+    .second-choice a{
+        font-size: 8px;
+    }
+    .second-choice .bigger {
+        font-size: 12px;
+    }
+    .in-gallery-content1 h3 {
+        font-size: 8px;
+    }
+    .in-gallery-content2 h3 {
+        font-size: 8px;
     }
  }
