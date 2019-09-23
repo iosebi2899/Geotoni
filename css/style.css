@@ -516,6 +516,8 @@ header .burger-icon{
     }
     .in-content{
         margin: 0 15%;
+        font-size: 20px;
+        font-family: 'Avenir LT StdR';
     }
     .in-content p{
         margin-right: 20px;
@@ -1051,6 +1053,69 @@ input:focus{
     }
     .about-page h3 {
         font-size: 13px;
+        margin: 20px 0;
+    }
+    .search .header {
+        font-size: 26px;
+        padding: 15px 0;
+    }
+    .search .FOS {
+        width: 60%;
+        margin: 0 20%;
+        height: 40px;
+    }
+    .F,.S{
+        font-size: 10px;
+    }
+    .choice{
+        font-size: 12px;
+    }
+    .portal-search{
+        font-size: 10px;
+    }
+    .info{
+        padding-bottom: 60px;
+    }
+    .Ski-Tourism h1 {
+        font-size: 20px;
+        padding: 4% 15%;
+    }
+    .Ski-Tourism h2 {
+        margin: 5px 0 50px 0;
+        font-family: 'Avenir LT StdR';
+        line-height: 22px;
+        padding: 0 15%;
+        font-size: 15px;
+    }
+    .in-content {
+        margin: 0;
+        padding: 0;
+        width: 30%;
+        font-size: 12px;
+    }
+    .in-content button {
+        margin: 0;
+    }
+    .in-portal2 .content {
+        width: auto;
+    }
+    .in-portal2 {
+        margin: 0;
+    }
+    .blah{
+        padding: 0 15%;
+    }
+    .in-portal2 .content .portal-text{
+        width: 80%;
+    }
+    .in-portal2 .content .portal-text h3 {
+        line-height: 16px;
+    }
+    .in-portal2 .content img {
+        width: 14%;
+        margin: 0;
+    }
+    .view-more{
         margin: 20px 0;
     }
 }  
