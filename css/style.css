@@ -1042,6 +1042,9 @@ input:focus{
     .social-link img{
         height: 14px;
     }
+    .burger{
+        background-color: rgb(60,65,94,0.9 );
+    }
 }  
 @media (max-width:585px){
     .WYN{
@@ -1058,7 +1061,7 @@ input:focus{
         height: 85vw;
     }
     .burger a p {
-        font-size: 20px;
+        font-size: 15px;
         margin: 25% 20%;
     }
  }
