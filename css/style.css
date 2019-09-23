@@ -958,7 +958,7 @@ input:focus{
         width: 150px;
     }
     .burger a p{
-        font-size:10px;
+        font-size:15px;
         margin: 25% 20%;
     }
     header .burger-icon{
@@ -968,14 +968,14 @@ input:focus{
         font-size:18px;
      }
      .about .text h2 {
-        font-size:15px;
+        font-size:20px;
     }  
     .about .text p {
-        font-size: 10px;
+        font-size: 15px;
         line-height: 12px;
     }
     .lm a {
-        font-size: 10px;
+        font-size: 15px;
     }
     .about .text {
         padding: 10%;
@@ -990,10 +990,10 @@ input:focus{
         padding-bottom: 20px;
     }
     .in-portal .content .portal-text h2 {
-     font-size: 14px;
+     font-size: 20px;
     }
     .in-portal .content .portal-text h3 {
-        font-size: 10px;
+        font-size: 15px;
         line-height: 14px;
     }
     .events {
