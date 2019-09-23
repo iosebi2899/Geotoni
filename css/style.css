@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 textarea{
     text-decoration: none;
@@ -24,7 +25,6 @@ textarea:focus{
     outline:none !important;
 }
 body{
-    overflow-x: hidden;
     background-image: url("../img/bg.jpg")
 }
 hr{
@@ -103,7 +103,7 @@ header .burger-icon{
 }
 .lang-switcher p{
     font-family: 'Avenir LT book';
-    font-size:20px;
+    font-size:14px;
     color: white;
 }
 .arrowdown{
@@ -119,50 +119,13 @@ header .burger-icon{
 .p{
     height: 18px;
 }
-.p a{
+.ins{
     color:white;
-    font-size: 20px;
+    font-size: 14px;
     font-family:  'Avenir LT book';
     text-transform: uppercase;
 
 }
-@media (max-width: 1050px){
-    .p a{
-        font-size: 18px;
-    }
-    .lang-switcher p{
-        font-size: 18px;
-    }
-}
-@media (max-width: 768px){
-    .p a{
-        font-size: 10px;
-    }
-    .lang-switcher p{
-        font-size: 10px;
-    }
-    .burger-icon{
-        width:15px;
-    }
-    .burger{
-        width: 150px;
-    }
-    .burger a p{
-        font-size:10px;
-        margin: 25% 20%;
-    }
-    header .burger-icon{
-     width:15px;
- }
-     header .logo{
-        font-size:18px;
-     }  
-}
-@media (max-width:418px){
-    header .logo{
-    font-size: 10px;
-    }
- }
 /* header-end */
 
 
@@ -974,3 +937,58 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 input:focus{
     outline: none !important;
 }
+@media (max-width: 1050px){
+    .ins{
+        font-size: 12px;
+    }
+    .lang-switcher p{
+        font-size: 12px;
+    }
+}
+@media (max-width: 768px){
+    .ins{
+        font-size: 8px;
+    }
+    .lang-switcher p{
+        font-size: 8px;
+    }
+    .burger-icon{
+        width:15px;
+    }
+    .burger{
+        width: 150px;
+    }
+    .burger a p{
+        font-size:10px;
+        margin: 25% 20%;
+    }
+    header .burger-icon{
+     width:15px;
+ }
+     header .logo{
+        font-size:18px;
+     }
+     .about .text h2 {
+        font-size:15px;
+    }  
+    .about .text p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .lm a {
+        font-size: 10px;
+    }
+    .about .text {
+        padding: 10%;
+       padding-bottom: 50px;
+    }
+    .portal .header {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+}
+@media (max-width:418px){
+    header .logo{
+    font-size: 10px;
+    }
+ }
