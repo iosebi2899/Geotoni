@@ -96,7 +96,7 @@ header .burger-icon{
 }
 .lang-switcher{
     align-items: center;
-    padding-right:10%;
+    padding-right:20%;
 }
 .lang-switcher p{
     font-family: 'Avenir LT book';
@@ -328,6 +328,7 @@ header .burger-icon{
 .in-portal .content .portal-text h3{
     font-family: 'Avenir LT book';
     font-size: 14px;
+    width: 90%;
     line-height: 26px;
     color: white;
 }
@@ -879,7 +880,7 @@ header .burger-icon{
     font-family: 'Avenir LT Stdm';
     color: white;
     padding: 10px 20px;
-    background-color: rgb(60,65,94,0.7 );
+    background-color: rgb(60,65,94,0.9 );
     border-radius: 15px;
 }
 /* region==footer */
@@ -957,6 +958,13 @@ input:focus{
         width: 60%;
         height: 10vh;
         padding: 0px 20%;
+    }
+    .burger a p {
+        font-size: 15px;
+        margin: 25% 20%;
+    }
+    .shown-burger {
+        height: 80vh;
     }
 }
 @media (max-width: 768px){
@@ -1112,9 +1120,6 @@ input:focus{
     .in-content button {
         margin: 0;
     }
-    .in-portal2 .content {
-        width: auto;
-    }
     .in-portal2 {
         margin: 0;
     }
@@ -1204,8 +1209,8 @@ input:focus{
         height: 85vw;
     }
     .burger a p {
-        font-size: 10px;
-        margin: 25% 20%;
+        font-size: 12px;
+        margin: 20% 20%;
     }
     .header-choice a{
         font-size: 10px;
@@ -1218,6 +1223,9 @@ input:focus{
     }
     .second-choice .bigger {
         font-size: 16px;
+    }
+    .shown-burger{
+        height: 70vh;
     }
  }
 @media (max-width:418px){
